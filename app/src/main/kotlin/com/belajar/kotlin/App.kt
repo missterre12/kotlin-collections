@@ -1,12 +1,11 @@
 package com.belajar.kotlin
 
-class App {
-    val greeting: String
-        get() {
-            return "Hello World!"
-        }
-}
+import com.belajar.kotlin.iteration.BooleanLearn
 
 fun main() {
-    println(App().greeting)
+    val booleanLearn = BooleanLearn ()
+
+    println("Class is open: ${booleanLearn.conjunctionOperator()}")
+    println("Class is closed: ${booleanLearn.isClose}")
+    println(booleanLearn.negationOperator())
 }
