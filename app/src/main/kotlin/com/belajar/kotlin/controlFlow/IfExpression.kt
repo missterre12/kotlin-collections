@@ -1,4 +1,4 @@
-package com.belajar.kotlin.iteration
+package com.belajar.kotlin.controlFlow
 
 class IfExpression {
     val openHours = 10
